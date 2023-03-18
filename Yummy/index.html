@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Yummy
+    </title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body >
+
+     <!--? ------------------------------------------------ -->
+    <!-- *=============>  spinner <============= -->
+        
+    <div class="spinner">
+        <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <!-- *=============>  end of spinner<============= -->
+    <!--? ------------------------------------------------ -->
+ <!-- *=============>  sidebar <============= -->
+ <div>
+    <div class=" sidebar">
+
+        <div class=" d-flex flex-column justify-content-between">
+            <div class="innerbar">
+                <ul class="unlist my-5 animate__animated">
+                    <li> <p  class="sideLink">search</p></li>
+                    <li> <p  class="sideLink">Categories</p></li>
+                    <li> <p  class="sideLink">Area</p></li>
+                    <li> <p  class="sideLink">Ingredients</p></li>
+                    <li> <p  class="sideLink">Contact Us</p></li>
+                </ul>
+
+
+            </div>
+            <div class="px-4 my-3">
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fas fa-globe"></i>
+                </div>
+
+                <p>
+                    Copyright © 2019 All Rights
+                    Reserved.
+                </p>
+            </div>
+        </div>
+
+        <div class="outterbar bg-light text-black d-flex  justify-content-between flex-column">
+
+            <div>
+                <img src="images/logo.png" class="my-5" alt="logo">
+            </div>
+            <div>
+                <i class="fas fa-bars fs-1 mb-5 fs-2  mx-2 xmark"></i>
+                <i class=""></i>
+
+            </div>
+            <div class="mx-2 px-2 my-5">
+
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- *=============>  End sidebar <========= -->
+
+    <!--?---------------------------------- -->
+
+    <!-- *=============>  section <============= -->
+    <section>
+        
+        <div class="container">
+            <div class="row firstPage my-3">
+               
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- *=============>  End section <========= -->
+
+    <!--?----------------------------------- -->
+
+    
+    <!-- *=============>  contact us <============= -->
+    <section  class="d-flex align-items-center justify-content-center contactUs d-none "style="z-index:10;" >
+        <div class="container  my-5">
+            <div class="mx-auto text-center">
+                <div class="row my-3 ">
+                    <div class="col-md-6">
+                        <input type="text" placeholder="Enter Your Name "  class="form-control rounded-2 w-75 mx-auto my-3 nameVal" id="exampleFormControlInput1 " >
+                   
+<div class="alert d-none  alert-danger w-75 mx-auto my-3 nalert" role="alert">
+    Special characters and numbers not allowed
+    </div>
+                    </div>
+                    <div class="col-md-6">
+
+                        <input type="text" placeholder="Enter Your Email " class="form-control rounded-2  w-75 mx-auto my-3 emailVal" id="exampleFormControlInput1 ">
+                       
+<div class="alert  d-none alert-danger w-75 mx-auto my-3 ealert" role="alert">
+    Email not valid *exemple@yyy.zzz
+    </div>
+                    </div>
+                </div>
+                <div class="row my-3">
+
+                    <div class="col-md-6">
+                        <input type="tel" placeholder="Enter Your Phone" class="form-control rounded-2 w-75 mx-auto my-3 phoneVal" id="exampleFormControlInput1 ">
+
+                        <div class="alert d-none alert-danger w-75 mx-auto my-3 talert palert" role="alert">
+                            Enter valid Phone Number
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="number" placeholder="Enter Your age " class="form-control rounded-2 w-75 mx-auto my-3  ageVal" id="exampleFormControlInput1 ">
+                  
+<div class="alert d-none alert-danger w-75 mx-auto my-3 aalert" role="alert">
+    Enter valid age
+    </div>
+                    </div>
+
+                </div>
+                <div class="row my-3">
+                    <div class="col-md-6">
+                        <input type="password" placeholder="Enter Your Password " class="form-control rounded-2 w-75 mx-auto my-3 password1Val" id="exampleFormControlInput1 ">
+                    
+<div class="alert d-none alert-danger w-75 mx-auto my-3 p1alert" role="alert">
+    Enter valid password *Minimum eight characters, at least one letter and one number:*
+    </div>
+    
+                    </div>
+                    <div class="col-md-6">
+                        <input type="password" placeholder="RePassword " class="form-control rounded-2 w-75 mx-auto my-3 password2Val" id="exampleFormControlInput1 ">
+                    
+<div class="alert d-none alert-danger w-75 mx-auto my-3 p2alert" role="alert">
+    Enter valid repassword
+    </div>
+    
+                    </div>
+                </div>
+                <button class="btn btn-outline-danger d-block my-3 mx-auto my-3 disabled" id="submitBtn">Submit</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- *=============>  End contact us <========= -->
+
+    <!--?------------------------------------------------ -->
+
+
+
+   
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
