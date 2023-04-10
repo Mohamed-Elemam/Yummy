@@ -1,2 +1,1 @@
-# Yummy
-this is delicious
+Yummy is a web project that I have been working on, utilizing HTML, CSS, JavaScript, jQuery, and various APIs from TheMealDB. The website is designed to showcase various recipes and provide users with the ability to search for specific dishes or ingredients. I have been responsible for designing and developing the website, as well as integrating the various APIs to ensure that the website functions smoothly. Throughout the project, I have gained valuable experience in web development and API integration, and I am eager to continue learning and improving my skills in this area.
